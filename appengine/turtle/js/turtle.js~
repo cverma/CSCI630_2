@@ -331,12 +331,10 @@ Turtle.display = function() {
 
     // Draw the turtle body.
     var radius = Turtle.ctxScratch.lineWidth / 2 + 10;
-/*
     Turtle.ctxDisplay.beginPath();
     Turtle.ctxDisplay.arc(Turtle.x, Turtle.y, radius, 0, 2 * Math.PI, false);
     Turtle.ctxDisplay.lineWidth = 3;
     Turtle.ctxDisplay.stroke();
-*/
 
     // Draw the turtle head.
     var WIDTH = 0.3;
